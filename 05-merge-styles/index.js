@@ -29,7 +29,7 @@ function copyAndMergeCssFiles(src, output) {
       });
     })
     .then(() => {
-      console.log(`Содержимое .css файлов скопировано в '${output}'`);
+      console.log(`Files .css bundle into '${output}'`);
     })
 
 }
